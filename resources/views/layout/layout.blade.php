@@ -159,7 +159,7 @@
   <li><a href="{{url('/employees')}}"><i class="material-icons">border_color</i>gérer les employes</a></li>
   <li><a href="#!"><i class="material-icons">add_circle</i>ajouter une annonce</a></li>
   <li><a href="{{url('/demandes')}}"><i class="material-icons">border_color</i>Consulter les demandes</a></li>
-  <li><a href="#!"><i class="material-icons">border_color</i>Consulter les inscriptions</a></li>
+  <li><a href="{{url('inscriptions')}}"><i class="material-icons">border_color</i>Consulter les inscriptions</a></li>
   <li><div class="divider"></div></li>
   <li><a class="waves-effect" href="javascript:;" onclick="document.getElementById('logout-form').submit()"><i class="material-icons">exit_to_app</i> {{ __('Logout') }}</a></li>
   <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
