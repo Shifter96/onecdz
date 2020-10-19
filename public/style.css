@@ -1,0 +1,168 @@
+body{
+    font-family: 'Roboto' ;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.image {
+    height: 400px;
+    width: 400px;
+}
+.apropos{
+    margin-top:8rem;
+}
+
+.ligne{
+    height:4px;
+    width: 40px;
+    border: none;
+    background-color: #4CAF50;
+    
+    margin:0px;
+    margin-bottom: 55px;
+    margin-top:20px;
+}
+h1{
+    margin:0;
+}
+.nos-taches{
+    margin-top:70px;
+}
+.ligne2{
+    height:4px;
+    width: 90px;
+    border: none;
+    background-color: #4CAF50;
+
+    margin-bottom: 55px;
+    margin-top:20px;
+}
+.material-icons{
+    display: block;
+    margin-bottom:20px ;
+}
+.brand-logo{
+    width:65px;
+    height:65px;
+}
+.collapsible{
+    width:800px;
+    
+    
+}
+.sidenav{
+    color: #4CAF50;
+}
+.sidenav-trigger{
+    position: fixed;
+    top: 50%;
+    left:1%;
+}
+.right-icon{
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+
+}
+.tabss{
+    margin-top: 2rem;
+}
+.tabs-title{
+    color: #4CAF50 !important;
+
+}
+a.tabs-title.active{
+    background-color: #e8f5e9 !important;
+    border-bottom: 2px solid #4CAF50  !important;
+}
+.tabss{
+    padding-top: 3rem ;
+    padding-bottom: 20rem;
+}
+
+.input.select-dropdown.dropdown-trigger {
+    position: left !important;
+  }
+
+.name{
+    font-size: 1.5rem !important;
+    font-weight: 600;
+}
+
+.info{
+    color: gray;
+}
+
+.collection-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete_button{
+    background: none;
+    border: none;
+    color: #4CAF50;
+    cursor: pointer;
+}
+.collection{
+    margin-top: 4rem;
+}
+.full-height{
+    height: 100vh;
+}
+.matricule {
+    display: block;
+}
+/* STYLE 2 */ 
+
+
+.card-panel{
+
+    max-width: 800px;
+    margin: 8rem auto;
+}
+.card-panel h2{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+.card-panel hr{
+    opacity: 0.4;
+}
+.card-panel .situation{
+    font-weight: 500;
+    font-size: 2.5rem;
+
+}
+.card-panel .message{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+.card-panel .label{
+    display: inline-block;
+    font-size: 1rem;
+}
+.card-panel .content{
+    margin: 0;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+}
+body{
+    background-image: url('./fireworks.png');
+}
+hr{
+    opacity: 0.4;
+}
+.tabs1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
